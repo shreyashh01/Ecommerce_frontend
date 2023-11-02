@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .btns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+  }
+
+  /* Pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Pagination list */
+.pagination-list {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Pagination item */
+.pagination-item {
+  margin: 0 4px;
+  padding: 10px;
+}
+
+/* Active pagination item */
+.pagination-item.active {
+  background-color: #007BFF;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Pagination link/button */
+.pagination-link {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Hover state for the pagination link/button */
+.pagination-link:hover {
+  background-color: #007BFF;
+  color: white;
+}

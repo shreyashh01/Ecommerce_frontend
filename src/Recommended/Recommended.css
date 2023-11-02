@@ -1,0 +1,48 @@
+.recommended-flex {
+    display: flex;
+    margin-left: 20rem;
+    padding: 10px;
+   
+  /*   border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .recommended-title {
+    margin-left: 21.2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  /* .btns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+  } */
+
+
+
+
+
+.btns {
+  margin: 10px; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  background-color: whitesmoke; 
+  color: black;
+  border: none;
+  border-radius: 5px;
+  border: 0.6px solid #353131;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+/* Hover effect for buttons */
+.btns:hover {
+  background-color: #179af2; 
+  color: #fff; 
+}
